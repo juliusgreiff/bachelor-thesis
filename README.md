@@ -1,2 +1,7 @@
-This is the code of my bachelor's thesis 'The Impact of the Leverage Effect in GARCH Models in Risk Management'.
-This repository contains a high-scaled PDF version of the thesis as well as all code I have programmed. (The different simulations I have run are found in the 'Simulations' folder. The listings of US treasuries for the kernel density estimator are in the 'data' folder. In the 'functions' folder, you can find the implementation of the two yield curve estimators, the data-generating processes, and my version of a smooth Fama Bliss method. Additionally, multiple helper functions are also defined. For example, to calculate the yield-to-maturity or duration. I also wrote functions that decrease the amount of code needed in each simulation to clean up their files. The scripts in the 'graphics' folder contain all the code used for the figures that were seen in my thesis.)
+This is the code for my bachelor's thesis titled 'The Impact of the Leverage Effect in GARCH Models in Risk Management'.
+
+The repository contains all the code I have written.
+
+The different simulations I have conducted can be found in the 'Simulations' folder. Each simulation is coded in a separate file. The initialization of the Monte Carlo simulation study is performed in the 'MonteCarlo_Results' file. It specifies the number of simulations, sources every simulation file, and creates a dataframe with the final results.
+
+In the 'Plots and Illustrations' folder, you can find the code for all the graphics presented in my thesis.
